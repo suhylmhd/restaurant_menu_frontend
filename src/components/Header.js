@@ -37,8 +37,14 @@ const Header = () => {
         <nav className="menu">
           <a href="/">HOME</a>
           <a href="/add-menu">MENU</a>
-          <a href="#">MAKE A RESERVATION</a>
-          <a href="#">CONTACT US</a>
+          <a href="/reservation">MAKE A RESERVATION</a>
+          <a 
+            onClick={(e) => {
+            e.preventDefault();
+              window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+            }} >
+              CONTACT US
+          </a>
         </nav>
       </div>
 

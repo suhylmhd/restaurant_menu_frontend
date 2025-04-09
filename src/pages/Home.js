@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import MenuSection from '../components/MenuSection';
 import MenuForm from '../components/MenuForm';
 import MenuItemForm from '../components/MenuItemForm';
+import Reservation from '../components/Reservation';
 import api from '../api';
 
 const Home = () => {
@@ -50,6 +51,7 @@ const Home = () => {
           <Route path="/" element={<MenuSection menus={menus} />} />
           <Route path="/add-menu" element={<MenuForm onAddMenu={handleAddMenu} />} />
           <Route path="/add-item" element={<MenuItemForm onAddItem={handleAddItem} />} />
+          <Route path="/reservation" element={<Reservation />} />
         </Routes>
       </Router>
       <Footer />

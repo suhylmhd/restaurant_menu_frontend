@@ -17,7 +17,6 @@
   overflow: hidden;
 }
 
-/* Top-left image and badge */
 .menu-box-decorator {
   position: absolute;
   top: 5px;
@@ -42,7 +41,7 @@
   font-weight: bold;
 }
 
-/* Title with side lines */
+
 .menu-title-line {
   display: flex;
   align-items: center;
@@ -65,7 +64,7 @@
   max-width: 200px;
 }
 
-/* Menu items */
+
 .menu-items {
   margin: 0 auto;
 }
@@ -89,7 +88,7 @@
   margin-top: 5px;
 }
 
-/* Bottom-right drink image */
+
 .menu-box-image {
   position: absolute;
   bottom: -10px;

@@ -1,4 +1,3 @@
-// src/components/MenuForm.js
 import React, { useState, useEffect } from "react";
 import "./MenuForm.css";
 import { Link } from "react-router-dom";
@@ -34,7 +33,7 @@ const MenuForm = ({ onAddMenu }) => {
       onAddMenu(res.data);
       setMenuName("");
       setDescription("");
-      fetchMenus(); // refresh menus
+      fetchMenus();
     } catch (err) {
       console.error("Error adding menu:", err);
     }

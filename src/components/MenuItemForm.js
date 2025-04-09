@@ -1,4 +1,3 @@
-// src/components/MenuItemForm.js
 import React, { useState, useEffect } from "react";
 import "./MenuForm.css";
 import api from "../api";
@@ -38,7 +37,7 @@ const MenuItemForm = () => {
       setName("");
       setDesc("");
       setPrice("");
-      navigate("/"); // redirect to MenuSection after adding
+      navigate("/"); 
     } catch (err) {
       console.error("Error adding item:", err);
     }
